@@ -1,0 +1,400 @@
+.logo{
+    font-family: 'Lobster', cursive;
+    font-family: 'Titan One', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: white;
+    margin-left: 100px;
+}
+body {
+
+    overflow-x: clip;
+}
+
+.logo::first-letter{
+    color: red;
+    animation: bounce 1s ease infinite;
+}
+
+
+body{
+    background-image: url("./IMAGE/Back_image.jpg");
+    background-size:cover;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 10px;
+    
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    color: white;
+    
+}
+
+.menu{
+    word-spacing: 55px;
+    margin-right: 100px;
+    padding:10px;
+    margin-right: 150px;
+}
+
+.intro p{
+    color: white;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Titan One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.intro{
+    position: absolute;
+    top: 40% ;
+    left: 60%;
+
+}
+
+#btn{
+    height: 35px;
+    width: 150px;
+    background-color: #ffe311;
+    border-radius: 20px;
+    box-shadow: 1px 1px 0px grey;
+    font-family: 'Lobster', cursive;
+    font-family: 'Titan One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#btn:hover
+{
+    background-color: #e68c25;
+    height: 50px;
+    width: 200px;
+    transition: 1s;
+}
+
+#btn a{
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black
+}
+
+.icon{
+    z-index: 2;
+    position: fixed;
+    transform: translateY(-50%);
+    top:50%;
+}
+
+.icon a img:hover{
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    transition: 1s;
+    border: 1px solid black;
+    color: black;
+}
+
+.poster{
+    color:white;
+    position: absolute;
+    top: 10%;
+    left:20%
+}
+
+.type {
+    display:inline-flex;
+}
+  
+.type span 
+{
+    word-break: break-all;
+    height: 1.2em;
+    width:0%;
+    overflow: hidden;
+    animation:t 4s linear infinite alternate;
+}
+
+.type span:before {
+    content:" ";
+    display:inline-block;
+}
+  
+@keyframes t
+{
+    90%,100% {width:100%}
+}
+
+
+#about{
+    position: absolute;
+    top: 100%;
+    height: 100vh;
+    color: #e2e1ed;
+    padding: 100px 50px;
+}
+
+#about-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#about-head h1{
+    font-size: 50px;
+    color: #c76d07;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    background-color:  rgb(16, 19, 19);
+    position: relative;
+    top: 20%;
+    border-radius: 20px;
+}
+
+#about-head p{
+    font-size :15px; 
+    margin-top: -15px;
+    text-decoration: underline;
+}
+
+#left-col{
+    flex-basis: 50%;
+}
+
+#right-col
+{
+    position: relative;
+    flex-basis: 50%;
+    left: 20%;
+    padding: 55px 50px;
+}
+
+#left-col p{
+    position: relative;
+    text-align: justify;
+    padding: 50px 50px;
+    font-size: 25px;
+}
+
+#html
+{
+    color: #e57f0aa7;
+}
+
+#css
+{
+    color: blue;
+}
+
+#js
+{
+    color: yellow;
+}
+
+#java
+{
+    color: antiquewhite;
+}
+
+#project{
+    position: absolute;
+    top: 220%;
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e2e1ed;
+    padding: 100px 50px;
+}
+
+
+#project-head
+{
+    display: flex;
+    justify-content: center; 
+    margin-top: 120px;
+}
+
+
+#project-head h1{
+    font-size: 50px;
+    color: #c76d07;
+}
+
+#project-con{
+    width: 900px;
+    height: 500px;
+    background-color: #222;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+#con-h{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#con-b{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.divi
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+
+.title
+{
+    color: #c76d07;
+}
+
+.education
+{
+    color: #e2e1ed;
+    position: absolute;
+    top: 350%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#ed-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ed-head h1{
+    font-size: 50px;
+    color: #c76d07;
+}
+.education .box-container{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 5%;
+    left: 3%;
+}
+
+.education .box-container .box{
+    /* width: 11rem; */
+    margin: 10px;
+    padding-left: 4rem;
+    border-left: .2rem solid rgb(224, 120, 17);
+    position: relative;
+}
+
+.education .box-container .box span{
+    font-size: 20px;
+    background:#222;
+    color:#fff;
+    border-radius: 5px;
+    padding:.5rem 2.5rem;
+}
+
+.education .box-container .box h3{
+    font-size: 1.4rem;
+    color:#fff;
+    padding-top: 0.5rem;
+}
+
+.education .box-container .box p{
+    font-size: 20px;
+    color:#eee;
+    padding: 0.5rem;
+}
+
+.education .box-container .box i{
+    position: absolute;
+    top:-1.0rem; left:-2.0rem;
+    height:4rem;
+    width: 4rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+    background:#e735048c;
+}
+
+.contact{
+    color: #e2e1ed;
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 480%;
+    height: 90vh;
+    width: 90%;
+}
+.box-container1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#con-box{
+    width: 500px;
+    height: 250px;
+    background-color: #222;
+}
+
+#con-head
+{
+    display: flex;
+    justify-content: center;
+}
+#con-head h1{
+    font-size: 50px;
+    color: #c76d07;
+}
+
+.box-1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ec8714;
+}
+
+.box-1 p{
+    font-size: 15px;
+}
+
+.box-2 h1{
+   text-align: center;
+}
+
+.box-2 p{
+    font-size: 15px;
+    text-align: center;
+    
+}
